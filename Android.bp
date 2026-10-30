@@ -25838,7 +25838,8 @@ android_app_import {
 
 // Fingerprint HAL prebuilt
 cc_prebuilt_binary {
-    name: "android.hardware.biometrics.fingerprint-service.xiaomi_prebuilt",
+    name: "disabled_android.hardware.biometrics.fingerprint-service.xiaomi_prebuilt",
+    enabled: false,
     stem: "android.hardware.biometrics.fingerprint-service.xiaomi",
     owner: "xiaomi",
     init_rc: ["proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint-service.xiaomi.rc"],
@@ -25856,7 +25857,8 @@ cc_prebuilt_binary {
 
 // UdfpsHandler prebuilt
 cc_prebuilt_library_shared {
-    name: "libudfpshandler_prebuilt",
+    name: "disabled_libudfpshandler_prebuilt",
+    enabled: false,
     stem: "libudfpshandler",
     owner: "xiaomi",
     srcs: ["proprietary/vendor/lib64/libudfpshandler.so"],
