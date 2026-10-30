@@ -844,7 +844,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/android.hardware.sensors-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors-V2-ndk.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/android.hardware.soundtrigger3-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.soundtrigger3-V1-ndk.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/android.media.audio.common.types-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.media.audio.common.types-V3-ndk.so \
-    vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/android.media.audio.common.types-V6-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.media.audio.common.types-V6-ndk.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/libalsautilsv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautilsv2.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/libaudio_aidl_conversion_common_ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_aidl_conversion_common_ndk.so \
     vendor/xiaomi/sm8750-common/proprietary/vendor/lib64/libaudioaidlcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioaidlcommon.so \
@@ -1857,4 +1856,3 @@ PRODUCT_PACKAGES += \
 # Vibrator AGM device library
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/odm/lib64/libagmdevice.so:$(TARGET_COPY_OUT_ODM)/lib64/libagmdevice.so
-
